@@ -2,7 +2,7 @@
 ## makeCacheMatrix and using the object with cacheSolve
 
 ## return a list of functions to get and set a matrix
-## and 2 functions to get and get an inverse of the matrix
+## and 2 functions to get and set an inverse of the matrix
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
     set <- function(y) {
